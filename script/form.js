@@ -61,7 +61,7 @@ function renderData(){
       const tgl_lahir = data_mahasiswa[i].tgl_lahir;
       const alamat = data_mahasiswa[i].alamat;
       
-      const html = `<tr><td>${nama}</td><td>${NIM}}</td><td>${prodi}</td><td>${email}</td><td>${password}</td><td>${jenis_kelamin}</td><td>${tgl_lahir}</td><td>${alamat}</td></tr>`;
+      const html = `<tr><td>${nama}</td><td>${NIM}</td><td>${prodi}</td><td>${email}</td><td>${password}</td><td>${jenis_kelamin}</td><td>${tgl_lahir}</td><td>${alamat}</td></tr>`;
       dataHTML += html;
     }
     document.querySelector(".data_mahasiswa").innerHTML += dataHTML;
