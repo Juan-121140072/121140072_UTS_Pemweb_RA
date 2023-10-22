@@ -45,6 +45,7 @@ function addData(){
         data_mahasiswa.push(data);
         localStorage.setItem("data", JSON.stringify(data_mahasiswa));
         alert("Data Berhasil Di Input");
+        window.location.href = "table.html";
     }
 }
 
